@@ -29,7 +29,7 @@ while (comienzo) {
 
     }else if((entrada === "ESC")||(entrada === "esc")){
         let todosNombres=listaReservas.join("\n")
-        alert ("Sus reservas se realizaron con exito a nombre de:\n" +todosNombres+ " \nPor un importe total de $"+ SumaImporte + "\nTotal de entradas: "+listaReservas.length);
+        alert ("Sus reservas se realizaron con exito a nombre de:\n" +todosNombres+ " \nPor un importe total de $"+ SumaImporte + "\nTotal de entradas: "+listaReservas.length+"\nPuedes pasar a retirarlas por el Estadio COLOSO DEL PARQUE Marcelo A. Bielsa de Lunes a Viernes de 8Hs. a 16Hs.");
         comienzo=false;
     } else{
         alert("El dato Ingresado no es correcto")
